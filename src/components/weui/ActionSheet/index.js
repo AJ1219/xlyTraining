@@ -3,13 +3,12 @@ import PropTypes from 'prop-types';
 import './actionSheet.css';
 
 export default class ActionSheet extends React.Component {
-
-  static defaultProps = {
-    isActive: false,
-    title: '',
-    menus: [],
-    onCancel: () => {},
-  };
+  // static defaultProps = {
+  //   isActive: false,
+  //   title: '',
+  //   menus: [],
+  //   onCancel: () => {}
+  // };
 
   static propTypes = {
     isActive: PropTypes.bool.isRequired,
